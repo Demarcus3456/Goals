@@ -9,16 +9,18 @@
 </head>
 <body>
         <!--Menu-->
-    <div class="container">
-        <a href="index.html"><button id="goal">Home</button></a>
-        <a href="personal.html"><button id="goal">Personal</button></a>
-        <a href="surrondings.html"><button id="goal">Surrondings</button></a>
-        <a href="social.html"><button id="goal">Social</button></a>
-        <a href="health.html"><button id="goal">Health</button></a>
-        <a href="finances.html"><button id="goal">Finances</button></a>
-        <a href="career.html"><button id="goal">Career</button></a>
-        <a href="faq.html"><button id="goal">FAQ</button></a>
-        <a href="soon.html"><button id="goal">Coming Soon</button></a>
+        <div id="mainbox" onclick="openFunction()">&#9776; Open</div>
+        <div id="menu" class="sidemenu">
+            <a href="index.html">Home</a>
+            <a href="personal.html">Personal</a>
+            <a href="surrondings.html">Surrondings</a>
+            <a href="social.html">Social</a>
+            <a href="health.html">Health</a>
+            <a href="finances.html">Finances</a>
+            <a href="career.html">Career</a>
+            <a href="faq.html">FAQ</a>
+            <a href="soon.html">Coming Soon</a>
+            <a href="#" class="closebtn" onclick="closeFunction()">&times;</a>
     </div>
 
 
@@ -31,67 +33,64 @@
     <div class="container3">
                 <!--What I see myself as once i complete goals-->
         <h2>Vision</h2>
-        <p>I see myself living free with zero stress and doing things that I enjoy. Things that I see myself doing are travelling and using new skills to push myself beyond my limit. My mental mind has reached its peak and I'm available to pass on the knowledge to others.</p>
+        <p>I see myself living free with zero stress and doing things that I enjoy. Things that I see myself doing are travelling and using my new skills to push myself beyond my limit. My mental mind has reached its peak and I'm available to pass on the knowledge that I gained to others.</p>
     </div>
 
     <div class="container4">
         <!--Long term goals-->
         <h3>Long-term goals</h3>
             <ul>
-                <li>I want to master drawing skills so I can make my creations come life.</li>
-                <li>I want to learn a new skill at the beginning of every month to keep my mind active.</li>
-                <li>I want to master playing the flute again to let my spirt free.</li>
-                <li>Im gooing to learn spainsh so I can fully enjoy myself in Mexico.</li>
-                <li>I want to improve my cooking skills so I could try new foods.</li>
-                <li>Im going to learn how to eat more healthy and how it affects my body.</li>
-                <li>As a kid I always wanted to make battle robots.</li>
-                <li>I havnt been avaible to travel like i want to due to financial reasons.</li>
-                <li>I going to organize my leisure time wisly by completing a goal and rewarding myself with free time.</li>
+                <li>I want to master drawing skills so I can make my creations come to life</li>
+                <li>I want to learn a new skill at the beginning of every month to keep my mind active</li>
+                <li>I want to master playing the flute again to make my spirit free</li>
+                <li>I'm going to learn Spanish so I can fully enjoy myself in Mexico</li>
+                <li>I want to improve my cooking skills so I can try new foods</li>
+                <li>I'm going to learn how to eat more healthily and how it affects my body</li>
+                <li>As a kid I always wanted to make battle robots</li>
+                <li>I haven't been able to travel like I want to due to financial reasons</li>
+                <li>I am going to organize my leisure time wisely by completing a goal and rewarding myself with free time</li>
             </ul>
     </div>
         <!--Short term goals-->
     <div class="container5">
-        <h4>Short term goals</h4>
+        <h4>Short-term goals</h4>
             <ul>
-                <li>Draw anime charcters</li>
+                <li>Draw shapes</li>
+                <li>Draw 3D shapes</li>
+                <li>Draw a body</li>
+                <li>Draw anime hair</li>
+                <li>Draw anime eyes</li>
+                <li>Draw anime characters</li>
                 <li>Find a skill that I lack</li>
-                <li>Master my first flute song</li>
-                <li>Learn the baics of spainsh</li>
-                <li>Learn how to write in spainsh</li>
-                <li>Learn how to speak spainsh</li>
+                <li>Mastering my first flute song</li>
+                <li>Learning the basics of Spanish</li>
+                <li>Learn how to write in Spanish</li>
+                <li>Learn how to speak Spanish</li>
                 <li>Master basic foods like rice and bread</li>
                 <li>Learn to make difficult food</li>
-                <li>Study the efects of heathy food</li>
+                <li>Study the effects of healthy food</li>
                 <li>Learn more about battle robots</li>
                 <li>Learn how to build a battle robot</li>
-                <li>Find people who are intrested in battle robots</li>
+                <li>Find people who are interested in battle robots</li>
                 <li>Buy parts for my battle robot</li>
                 <li>Build battle robot</li>
-                <li>Find great deals to travel to differnt places</li>
-                <li>Plan on my trips 3 months in advance</li>
+                <li>Find great deals to travel to different places</li>
+                <li>Plan my trips 3 months in advance</li>
                 <li>Add all my daily tasks to habitica so I can buy my free time</li>
 
             </ul>
     </div>
 
-    <div class="sub">
-        <p>Vision Board</p>
+    <div class="img-gallery">
+        <p class="board">Vision Board</p>
         <img src="https://preview.redd.it/sagvxbwpetr41.jpg?width=640&crop=smart&auto=webp&s=170ded23f25101ef72d76e66cd5f1c1e392f2c08" alt="Anime drawing">
-        <br>
         <img src="data:image/jpeg;base64,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" alt="Learnind a new skill">
-        <br>
         <img src="https://i.pinimg.com/736x/5b/44/6a/5b446a1c9d29f11e65f0b9d953cad6a1--native-flute-native-american-flute.jpg" alt="Eagle flute">
-        <br>
         <img src="https://image.winudf.com/v2/image1/Y29tLnplZW1pc2guc3BhbmlzaF9zY3JlZW5fMF8xNjE3NTU5MjE2XzAyNA/screen-0.jpg?fakeurl=1&type=.jpg" alt="Learning spanish">
-        <br>
         <img src="https://img.taste.com.au/I1LuBTWr/taste/2020/04/may20_coconut-panna-cotta-160733-1.jpg" alt="Complex food">
-        <br>
         <img src="https://cdn1.sph.harvard.edu/wp-content/uploads/sites/30/2012/09/HEPJan2015.jpg" alt="Healthy food">
-        <br>
         <img src="https://i.kym-cdn.com/photos/images/newsfeed/001/245/082/9b7.gif" alt="Battle robots">
-        <br>
-        <img src="https://www.transportation.gov/sites/dot.gov/files/images/Plan_travel.jpg" alt="Travel plans">
-        <br>
+        <img src="https://assets.traveltriangle.com/blog/wp-content/uploads/2017/12/Planning-The-Itinerary.jpg" alt="Travel plans">
         <img src="https://www.bls.gov/tus/charts/chart9.jpg" alt="Spending my free time">
 
     <script src="script.js"></script>
