@@ -10,7 +10,7 @@ li {
     font-size: 25px;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
     Font-size: 30px;
 }
 /*Menu*/
@@ -119,6 +119,11 @@ h1 {
 .img-gallery img {
     width: 100%;
     cursor: pointer;
+}
+
+/*Completion*/
+.done {
+    background-color: white;
 }
 
 /*FAQ*/
