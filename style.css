@@ -110,7 +110,7 @@ h1 {
     text-align: center;
     font-size: 36px;
 }
-.img-gallery {
+.img-gallery{
     width: 80%;
     margin: 100px auto 50px;
     display: grid;
@@ -121,12 +121,15 @@ h1 {
     width: 100%;
     cursor: pointer;
 }
-
 /*Completion*/
-.done {
-    background-color: white;
+h5 {
+    color: white;
+    text-align: center;
 }
 
+.done {
+    color: white;
+}
 /*FAQ*/
 .faq {
     background-color: rgb(255, 147, 147);
